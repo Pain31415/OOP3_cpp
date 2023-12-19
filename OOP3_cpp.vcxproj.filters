@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{db26d355-334b-4936-914b-42b2182a7444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{685ef76f-9618-4b59-9a06-366f6d491df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{8b4470b9-8a7b-4182-a7f3-06907251f705}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Domain\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Date.h">
+      <Filter>Domain\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
